@@ -12,12 +12,12 @@ jobs:
       - name: Send email
         uses: dawidd6/action-send-mail@v2
         with:
-          connection_url: smtp://jblarpan.global@gmail.com:ARba@1990@smtp.gmail.com:465
+          connection_url: smtp://jblarpan.global@gmail.com:cnpymfyqtmyubbyu@smtp.gmail.com:465
           server_address: smtp.gmail.com
           server_port: 465
           secure: true
-          username: jblarpan.global@gmail.com
-          password: ARba@1990
+          username: arpan@2pirad.com
+          password: cnpymfyqtmyubbyu
           subject: Pull request on main branch
           to: arpan@2pirad.com
           from: Arpan Banerjee
