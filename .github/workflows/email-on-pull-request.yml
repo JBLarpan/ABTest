@@ -1,0 +1,32 @@
+name: Email on pull request
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          connection_url: smtps://smtp.gmail.com:465
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: jblarpan.global@gmail.com
+          password: ARba@1990
+          subject: Pull request on main branch
+          to: arpan@2pirad.com
+          body: |
+            Hi,
+
+            There is a new pull request on ABTESTForked the main branch.
+
+            Please review it and let me know if you have any questions.
+
+            Thanks,
+            [JBLarpan]
+
