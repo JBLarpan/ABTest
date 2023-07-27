@@ -16,8 +16,8 @@ jobs:
           server_address: smtp.gmail.com
           server_port: 465
           secure: true
-          username: jblarpan.global@gmail.com
-          password: ARba@1990
+          username: arpan@2pirad.com
+          password: cqiadmmfvfjkhjuk
           subject: Pull request on main branch
           to: arpan@2pirad.com
           body: |
