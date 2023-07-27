@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send email
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v2
         with:
           connection_url: smtp://jblarpan.global@gmail.com:ARba@1990@smtp.gmail.com:465
           server_address: smtp.gmail.com
