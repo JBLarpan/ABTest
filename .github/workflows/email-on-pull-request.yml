@@ -6,6 +6,7 @@ on:
       - main
 
 jobs:
+  
   email:
     runs-on: ubuntu-latest
     steps:
@@ -17,7 +18,7 @@ jobs:
           server_port: 465
           secure: true
           username: arpan@2pirad.com
-          password: hsqonfsnyfhkljre
+          password: qiveuvilpqxwwtex
           subject: Pull request on main branch
           to: arpan@2pirad.com
           from: Arpan Banerjee
