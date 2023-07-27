@@ -5,7 +5,7 @@ on:
     branches:
       - main
 
-jobs:
+jobs: 
   email:
     runs-on: ubuntu-latest
     steps:
@@ -14,10 +14,12 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
+          secure: true
           username: arpan@2pirad.com
           password: wbjvldpcnqgbcpmy
           subject: Pull request on main branch
-          to: jblarpan.global@gmail.com
+          to: arpan@2pirad.com
+          from: Arpan Banerjee
           body: |
             Hi,
 
