@@ -5,7 +5,8 @@ on:
     branches:
       - main
 
-jobs: 
+jobs:
+
   email:
     runs-on: ubuntu-latest
     steps:
